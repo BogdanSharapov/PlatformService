@@ -1,0 +1,34 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+# === IDE & OS Settings ===
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+.DS_Store
+Thumbs.db
+
+# === Packages & Dependencies ===
+packages/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# === Secrets & Configurations ===
+secrets.json
+.microsoft.visualstudio.secrets.json
+appsettings.Development.json
+appsettings.Local.json
+*.env
+
+# === Test & Diagnostics ===
+TestResults/
+*.log
+*.apkg
